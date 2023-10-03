@@ -1,0 +1,26 @@
+@import url(style.css);
+
+@media (max-width: 1308px) {
+
+    .header__links {
+        display: none;
+    }
+
+    .text-h1 {
+        font-size: 70px;
+    }
+
+    .content_wrapper {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .content__img_bg {
+        display: none;
+    }
+
+    .content__company_wrapper {
+        flex-wrap: wrap-reverse;
+        padding: 25px 45px;
+    }
+}
